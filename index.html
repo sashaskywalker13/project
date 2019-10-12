@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>yokNgalam</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/reset-min.css">
+  <link rel="stylesheet" href="https://use.typekit.net/vsg6fcg.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  // Add the new slick-theme.css if you want the default styling
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <main class="header">
+    <div class="container">
+      <div class="header-menu"> <!-- шапка сайта -->
+        <div class="row">
+          <div class="col-lg-2"> <!-- логотип -->
+            <span>Yok<strong>Ngalam</strong></span>
+          </div>
+          <div class="col-lg-6 offset-lg-3">
+            <ul class="header-menu-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Destination</a></li>
+              <li><a href="#">Ittinary</a></li>
+              <li><a href="#">Review</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-1">
+            <img src="img/Header/avatar.png" alt="avatar">
+          </div>
+        </div>
+      </div>
+      <div class="header-content">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <h1>LETS GET <span>LOST</span></h1>
+            <p>Malang will never dissapointed you.<br>From every step you took you will be amazed and suddenly fallin love with Malang</p>
+            <button class="button btn-header">SET ITTINERY NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section class="city">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="img/header/city.png" alt=""></div>
+          <div class="col-lg-6">
+            <h2>City of <span>Love</span></h2>
+            <p>Malang is the second largest city in East Java province, Indonesia. It has a history dating back to the ancient Mataram Kingdom. The city is famous for its cool temperature. People in East Java sometimes call it "Paris of East Java.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="destination">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 offset-lg-1">
+          <h2>Des<span>tination</span></h2>
+          <p>Being around by many mountain, Malang not only came with mountain vacation, but our beach,cultural spot, and Human Interest is worth to experienced.</p>
+        </div>
+        <div class="col-lg-3 offset-lg-1">
+          <div class="destination-basic">
+             <button class="btn-inf"><img src="img/Header/inf.png" alt="inf"></button> 
+             <p class="info">see basic regulation</p>
+          </div>
+        </div>
+      </div>
+      <div class="destination-slider">
+      <div class="destination-slider-for">
+        <div class="destination-slider-block"><img src="img/Header/Clip.jpg" alt=""></div>
+        <div class="destination-slider-block"><img src="img/Header/Clip.jpg" alt=""></div>
+        <div class="destination-slider-block"><img src="img/Header/Clip.jpg" alt=""></div>
+        <div class="destination-slider-block"><img src="img/Header/Clip.jpg" alt=""></div>
+        <div class="destination-slider-block"><img src="img/Header/Clip.jpg" alt=""></div>
+      </div>
+      <div class="destination-slider-nav">
+        <div class="destination-slider-block"><img src="img/Header/Clip.jpg" alt=""></div>
+        <div class="destination-slider-block"><img src="img/Header/Clip.jpg" alt=""></div>
+        <div class="destination-slider-block"><img src="img/Header/Clip.jpg" alt=""></div>
+        <div class="destination-slider-block"><img src="img/Header/Clip.jpg" alt=""></div>
+        <div class="destination-slider-block"><img src="img/Header/Clip.jpg" alt=""></div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.destination-slider').slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+        });
+      });
+    </script>
+    <script> 
+              $('.destination-slider-for').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: '.destination-slider-nav'
+        });
+        $('.destination-slider-nav').slick({
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          asNavFor: '.destination-slider-for',
+          dots: true,
+          centerMode: true,
+          focusOnSelect: true
+        });
+</script>
+  </body>
+</html>

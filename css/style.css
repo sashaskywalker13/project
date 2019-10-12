@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Lato_light';
+  src: url('../fonts/Lato-Light.woff2') format('woff2'), url('../fonts/Lato-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato_reg';
+  src: url('../fonts/Lato-Regular.woff2') format('woff2'), url('../fonts/Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato_bold';
+  src: url('../fonts/Lato-Bold.woff2') format('woff2'), url('../fonts/Lato-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat_reg';
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat_bold';
+  src: url('../fonts/Montserrat-Bold.woff2') format('woff2'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype'), url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* basic sattings */
+html {
+  font-size: 10px;
+}
+section {
+  padding-top: 10rem 0;
+}
+.button {
+  text-transform: uppercase;
+  border: none;
+  background: none;
+  background-color: #ffffa6;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  font-family: 'Lato_bold', sans-serif;
+}
+/* оформление головы */
+.header {
+  background: url(../img/Header/bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.header-menu {
+  height: 7rem;
+}
+.header-menu span {
+  height: 7rem;
+  line-height: 7rem;
+  font-family: 'Montserrat_reg', sans-serif;
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+.header-menu img {
+  margin-top: 2rem;
+}
+.header-menu-nav {
+  list-style-type: none;
+  font-size: 1rem;
+  font-family: 'Lato_reg', sans-serif;
+}
+.header-menu-nav li {
+  display: inline-block;
+  height: 7rem;
+  line-height: 7rem;
+  padding: 0 1.5rem;
+}
+.header-menu-nav li a {
+  color: #ffffff;
+}
+.header-menu-nav li a:hover {
+  text-decoration: none;
+  color: #ffffa6;
+}
+.header-content {
+  text-align: center;
+  margin-top: 8rem;
+  color: #ffffff;
+}
+.header-content h1 {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6rem;
+}
+.header-content h1 span {
+  color: #29d9c2;
+}
+.header-content p {
+  font-family: 'Lato_reg', sans-serif;
+  line-height: 1.7rem;
+}
+.header .btn-header {
+  margin: 3rem 0 20rem;
+}
+.city {
+  background: #ffffff;
+  margin: 5rem 0;
+}
+.city h2 {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6rem;
+  color: #29d9c2;
+}
+.city h2 span {
+  color: #01a2a6;
+}
+.city p {
+  font-family: 'Lato_reg', sans-serif;
+  color: black;
+  margin-top: 3rem;
+  line-height: 1.7rem;
+}
+.destination {
+  /* 1 */
+}
+.destination h2 {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6rem;
+  color: #29d9c2;
+}
+.destination h2 span {
+  color: #01a2a6;
+}
+.destination p {
+  font-family: 'Lato_reg', sans-serif;
+  color: black;
+  margin-top: 3rem;
+  line-height: 1.7rem;
+}
+.destination-basic {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.destination .info {
+  margin: 0;
+  text-align: center;
+  color: #c1c1c1;
+}
+.destination .btn-inf {
+  background: none;
+  border: none;
+}
